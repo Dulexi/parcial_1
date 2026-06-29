@@ -1,0 +1,34 @@
+[
+  {
+    "id": "SW-001",
+    "nombre": "Switch Piso 1",
+    "tipo": "switch",
+    "ip": "192.168.10.2",
+    "estado": "activo",
+    "ubicacion": "Piso 1"
+  },
+  {
+    "id": "RT-001",
+    "nombre": "Router Principal",
+    "tipo": "router",
+    "ip": "192.168.10.1",
+    "estado": "activo",
+    "ubicacion": "Data Center"
+  },
+  {
+    "id": "AP-001",
+    "nombre": "Access Point Oficina",
+    "tipo": "access point",
+    "ip": "192.168.10.20",
+    "estado": "mantenimiento",
+    "ubicacion": "Oficina Administrativa"
+  },
+  {
+    "id": "FW-001",
+    "nombre": "Firewall Perimetral",
+    "tipo": "firewall",
+    "ip": "192.168.10.254",
+    "estado": "activo",
+    "ubicacion": "Data Center"
+  }
+]

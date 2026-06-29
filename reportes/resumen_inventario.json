@@ -1,0 +1,12 @@
+{
+    "fecha_generacion": "2026-06-29 17:06:51",
+    "total_dispositivos_validos": 4,
+    "dispositivos_activos": 3,
+    "dispositivos_en_mantenimiento": 1,
+    "cantidad_por_tipo": {
+        "switch": 1,
+        "router": 1,
+        "access point": 1,
+        "firewall": 1
+    }
+}
