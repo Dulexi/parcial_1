@@ -1,2 +1,5 @@
 id,nombre,tipo,ip,estado,ubicacion
-SW-002,Switch Piso 2,switch,192.168.20.2,activo,Piso 2
+SW-001,Switch Piso 1,switch,192.168.10.2,activo,Piso 1
+RT-001,Router Principal,router,192.168.10.1,activo,Data Center
+AP-001,Access Point Oficina,access point,192.168.10.20,mantenimiento,Oficina Administrativa
+FW-001,Firewall Perimetral,firewall,192.168.10.254,activo,Data Center
