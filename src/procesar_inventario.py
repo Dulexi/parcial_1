@@ -6,7 +6,7 @@ import ipaddress
 from datetime import datetime
 
 
-ARCHIVO_ENTRADA = "datos/inventario_dispositivos.json"
+ARCHIVO_ENTRADA_DEFAULT = "datos/inventario_dispositivos.json"
 REPORTE_CSV = "reportes/reporte_inventario.csv"
 RESUMEN_JSON = "reportes/resumen_inventario.json"
 
@@ -107,7 +107,13 @@ def generar_resumen_json(resumen, ruta_salida):
 def main():
     os.makedirs("reportes", exist_ok=True)
 
-    dispositivos = cargar_inventario(ARCHIVO_ENTRADA)
+    archivo_entrada = ARCHIVO_ENTRADA_DEFAULT
+
+    if len(sys.argv) > 1:
+        archivo_entrada = sys.argv[1]
+
+
+    dispositivos = cargar_inventario(archivo_entrada)
     dispositivos_validos, resumen = analizar_inventario(dispositivos)
 
     generar_reporte_csv(dispositivos_validos, REPORTE_CSV)

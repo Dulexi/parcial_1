@@ -1,0 +1,18 @@
+[
+  {
+    "id": "SW-002",
+    "nombre": "Switch Piso 2",
+    "tipo": "switch",
+    "ip": "192.168.20.2",
+    "estado": "activo",
+    "ubicacion": "Piso 2"
+  },
+  {
+    "id": "AP-ERROR",
+    "nombre": "Access Point con IP inválida",
+    "tipo": "access point",
+    "ip": "999.999.999.999",
+    "estado": "activo",
+    "ubicacion": "Oficina"
+  }
+]
